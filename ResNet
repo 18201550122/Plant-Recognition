@@ -100,7 +100,7 @@ class ResNet(nn.Module):
     def __init__(self,
                  block,
                  blocks_num,
-                 num_classes=50,  # 种类修改的地方，你是几种，就把这个改成几，我是7中所以这里是7
+                 num_classes=50,  # 一共有多少类别
                  # '''                       可调代码点                ******************************************************************************               '''
                  include_top=True,
                  groups=1,
